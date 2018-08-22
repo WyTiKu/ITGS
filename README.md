@@ -11,7 +11,7 @@
        (Note: The mouse pointer must be in the 3D viewport) </p>
 <p> 2. Select Mesh ⏵ Grid </p>
 <p> 3. Under the Tool shelf Tab*, under Add Grid, change the values of “X subdivisions” and “Y subdivisions” to AAA </p>
-<p>  </p>
-<p>  </p>
+<p> 4. Click on Textures under the Properties Viewport (Right side of the screen) </p>
+<p> 5. Click on the New button to add a new texture </p>
 <p>  </p>
 <p>  </p>
