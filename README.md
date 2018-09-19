@@ -48,6 +48,8 @@ MAKING A VISUAL REPRESENTATION OF BATHYMETRY DATA IN BLENDER
    
 ## SECTION 2 - Adding the Textures and refining the model
 
+### REFINE THE MODEL BY
+
    1. Click on *Add Modifier* and select the *Subdivision Surface* modifier
    
    2. Under *Subdivision Surface* click the upwards pointing triangle to change its position to be above the Displace modifier.
