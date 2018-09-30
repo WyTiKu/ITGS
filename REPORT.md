@@ -106,5 +106,38 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
 *Finished*
 
-## SECTION 2 - Adding Colour and Mist
+## SECTION 2 - Adding Colour, Mist and setting the camera
 
+### PART 1 - Setting the Camera
+
+   1. Return to the 3D viewport by, at the bottom of the 3D viewport along the bar on the far left side, click on the 3D *viewport 
+       options* (icon shaped like a grey cube) and select *3D View*
+   
+   2. 
+       
+
+   1. While still in the Node Editor, at the bottom bar, change the node tree type from *shader* (icon shapeed like a grey spåhere) to 
+      *composoting* (icon shaped like images of shapes).
+
+   2. Under the properties window, go to *Rednder Layers*
+   
+   3. Under *Passes*, tick the box labelled *Mist*
+   
+   4. In the node editor, press **SHIFT + A** and under *Input* Add *Render Layers*
+   
+   5. Press **SHIFT + A** and under *Colour* add **Mix**
+   
+   6. By clicking and dragging to make links between nodes as in section 2, connect *image* of the *Render Layers* node and *image* of 
+      the *Mix* node
+      
+   7. Press **SHIFT + A** and under *Vector* add *Map Value*
+   
+   9. Link *Mist* of the *Render Layers* node to the *Value* of the *Map Value* node
+   
+   10. Link *Value* of the *Map Value* node to the *Fac* of the *Mix* node
+   
+   11. Press **SHIFT + A** and under *Output* add *Composite*
+   
+   12. Link *Image* of the *Mix* node to the *Image* of the *Composite* node
+   
+   13. 
