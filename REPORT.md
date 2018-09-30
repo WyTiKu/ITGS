@@ -71,7 +71,9 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
       
    9. Bring the mouse into the 3D viewport, press **S** on the keyboard
    
-   10. Without moving the mouse, press **8** on the keyboard, then **enter**
+   10. Without moving the mouse, press **6** (or another number depending on the preffered size of the model, changing the size of the 
+       model is to make it more comfortable to work with especially when setting the camera, the size can be adjusted later on using 
+       this same method) on the keyboard, then **enter**
    
    11. Uner the properties window, go to *material* (icon shaped like a silver sphere)
    
@@ -111,33 +113,50 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
 ### PART 1 - Setting the Camera
 
    1. Return to the 3D viewport by, at the bottom of the 3D viewport along the bar on the far left side, click on the 3D *viewport 
-       options* (icon shaped like a grey cube) and select *3D View*
+       options* and select *3D View*
    
-   2. 
-       
+   2. By pressing **0** on the number pad on the keyboard, or by going to the bottom of the 3D viewport along the bar, selecting *view*       and then *camera*, the 3D viewport will change to the view of the camera, showing what will be rendered.:
+   
+   3. **Right Click** the black rectangle in order to select the camera. When selected, it should have an orange lining.
+   
+   4. In the properties viewport, go to *Object*
+   
+   5. By changing the valuese of *Location* and *Rotation* under *Transform*, change the position of the camera, while seeing the      
+      results of the changes within the square in the 3D viewport. What is within the highlighted rectangle is what will be rendered. 
+      Change the values to get the desired result. In the case of the still example, under *Location* the values are:
+           X:14.5
+           Y: 5.9
+           Z: 4.1
+      under *Rotation* the values are:
+           x:86.3
+           Y: 3
+           X:-246
 
-   1. While still in the Node Editor, at the bottom bar, change the node tree type from *shader* (icon shapeed like a grey spåhere) to 
+### PART 2 - Mist and Colour
+
+   6. Return to the *Node Editor* by, at the bottom of the 3D viewport along the bar on the far left side, click on the 3D *viewport 
+       options* and select *3D View* change the node tree type from *shader* (icon shaped like a grey spehere) to 
       *composoting* (icon shaped like images of shapes).
-
-   2. Under the properties window, go to *Rednder Layers*
-   
-   3. Under *Passes*, tick the box labelled *Mist*
-   
-   4. In the node editor, press **SHIFT + A** and under *Input* Add *Render Layers*
-   
-   5. Press **SHIFT + A** and under *Colour* add **Mix**
-   
-   6. By clicking and dragging to make links between nodes as in section 2, connect *image* of the *Render Layers* node and *image* of 
-      the *Mix* node
       
-   7. Press **SHIFT + A** and under *Vector* add *Map Value*
+   7. Tick the box which is labelled *use nodes* along the bar   
+
+   8. Under the properties window, go to *Rednder Layers*
    
-   9. Link *Mist* of the *Render Layers* node to the *Value* of the *Map Value* node
+   9. Under *Passes*, tick the box labelled *Mist*
    
-   10. Link *Value* of the *Map Value* node to the *Fac* of the *Mix* node
+   10. Press **SHIFT + A** and under *Colour* add **Mix**
    
-   11. Press **SHIFT + A** and under *Output* add *Composite*
+   11. By clicking and dragging to make links between nodes as in section 2, connect *image* of the *Render Layers* node and *image* of 
+      the *Mix* node
+      (By clicking and dragging the nodes themselves, they can also be moved around in order to make space for more nodes)
+      
+   12. Press **SHIFT + A** and under *Vector* add *Map Value*
    
-   12. Link *Image* of the *Mix* node to the *Image* of the *Composite* node
+   13. Link *Mist* of the *Render Layers* node to the *Value* of the *Map Value* node
    
-   13. 
+   14. Link *Value* of the *Map Value* node to the *Fac* of the *Mix* node
+   
+   16. Link *Image* of the *Mix* node to the *Image* of the *Composite* node
+   
+   17. In the *Mix* node, the white square labelled *image* determines the colour of the mist. Click on it to change it. This may be changed depending on the desired result, in the case of the still image, the value is:
+   
