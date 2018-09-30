@@ -1,6 +1,8 @@
 MAKING A VISUAL REPRESENTATION OF BATHYMETRY DATA IN BLENDER
 ===
 
+Note: While making the model, occasionally save the project by pressing Ctrl + S or going to *file -> Save*
+
 ## SECTION 1 - Making a Blender Model From A Heightmap
 
 ### PREPARE BLENDER BY:
