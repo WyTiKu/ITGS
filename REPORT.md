@@ -124,12 +124,19 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    5. By changing the valuese of *Location* and *Rotation* under *Transform*, change the position of the camera, while seeing the      
       results of the changes within the square in the 3D viewport. What is within the highlighted rectangle is what will be rendered. 
       Change the values to get the desired result. In the case of the still example, under *Location* the values are:
+      
            X:14.5
+           
            Y: 5.9
+           
            Z: 4.1
+      
       under *Rotation* the values are:
+           
            x:86.3
+           
            Y: 3
+           
            X:-246
 
 ### PART 2 - Mist and Colour
@@ -162,9 +169,13 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
    18. Under *Map Value*, the different values can be altered for different results. In the case of the still examples, the different 
        values were:
+       
        Offset:           0.250
+       
        Size:             0.500
+       
        Use Minimum: Off; 0.000
+       
        Use Maximum: On;  1.000
        
 ### PART 3 (optional) - Adjusting the Mist
