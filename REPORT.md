@@ -7,7 +7,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
 
 ### PREPARE BLENDER BY:
 
- 1. Opening Blender 2.97
+ 1. Opening Blender 2.79
  
  2. Deleting the existing cube in the 3D viewport by right-clicking it, pressing Delete or X to open the Delete menu, and select Delete.
  
@@ -160,3 +160,32 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
    17. In the *Mix* node, the white square labelled *image* determines the colour of the mist. Click on it to change it. This may be changed depending on the desired result, in the case of the still image, the value is:
    
+   18. Under *Map Value*, the different values can be altered for different results. In the case of the still examples, the different 
+       values were:
+       Offset:           0.250
+       Size:             0.500
+       Use Minimum: Off; 0.000
+       Use Maximum: On;  1.000
+       
+### PART 3 (optional) - Adjusting the Mist
+If the camera is set up, it is possible to see real-time changes in the rendered mist image as you adjust the *Map Value* values.
+To do this, the model must first be rendered
+
+   1.  Under the *Tool Shelf Tab*, under *Render* (Icon shaped like a camera) under *Render* click *Render* and wait for the image 
+ to finish rendering
+ 
+   2. Once the model has finished rendering, return to the *Node editor* by clicking on the *change editor type* button at the 
+         Bottom left of the 3D viewport bar
+         
+   3. Press **SHIFT + A** and under *Output* add the node *Viewer*
+   
+   4. By clicking and holding, connect the *Image* of the *Viewer* node to the *Image* of the *Mix* node
+   
+   5. At the bottom bar of the 3D viewport, tick the box labelled *Backdrop* and the rendered image should appear as the backdrop
+
+   6. As the values under *Map Value* are altered, the direct changes can be seen on the backdrop. Press the middle mouse button and
+          move the mouse in order to change the view and see the backdrop better. Scroll the middle mouse button in order to change the 
+
+### What the final node combination should look like:   
+
+![](Images/CompositeNodes.PNG)
