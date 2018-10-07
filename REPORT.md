@@ -48,7 +48,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
 **Section 1 is Finished.**
    
-## SECTION 2 - Adding the Textures and refining the model
+## SECTION 3 - Adding the Textures and refining the model
 
    1. Click on *Add Modifier* and select the *Subdivision Surface* modifier
    
