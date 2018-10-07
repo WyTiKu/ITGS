@@ -165,7 +165,26 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
    16. Link *Image* of the *Mix* node to the *Image* of the *Composite* node
    
-   17. In the *Mix* node, the white square labelled *image* determines the colour of the mist. Click on it to change it. This may be changed depending on the desired result, in the case of the still image, the value is:
+   17. In the *Mix* node, the white square labelled *image* determines the colour of the mist. Click on it to change it. This may be 
+       changed depending on the desired result, in the case of the still image, the value is:
+       R: 0.023
+       G: 0.028
+       B: 0.126
+       
+   18. Under *Map Value*, the different values can be altered for different results. In the case of the still examples, the different 
+       values were:
+       Offset:           0.250
+       Size:             0.500
+       Use Minimum: Off; 0.000
+       Use Maximum: On;  1.000
+       
+### PART 3 (optional) - Adjusting the Mist
+If the camera is set up, it is possible to see real-time changes in the rendered mist image as you adjust the *Map Value* values.
+To do this, the model must first be rendered
+      
+      
+###What the final node combination should look like:   
+![](Images/CompositeNodes.PNG)
    
    18. Under *Map Value*, the different values can be altered for different results. In the case of the still examples, the different 
        values were:
