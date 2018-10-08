@@ -5,13 +5,15 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
 
 ## SECTION 1 - Making a Blender Model From A Heightmap
 
-### PREPARE BLENDER BY:
+### PREPARE THE PROJECT BY:
 
  1. Opening Blender 2.79
  
  2. Deleting the existing cube in the 3D viewport by right-clicking it, pressing Delete or X to open the Delete menu, and select Delete.
  
- 3. Having the heightmap picture available on the computer
+ 3. Deleting the existing lamp in the 3D viewport by right-clicking it, pressing Delete or X to open the Delete menu, and select Delete.
+ 
+ 4. Having the heightmap picture and Logo Picture available on the computer
 
 ### MAKE THE BLENDER MODEL:
    1. Press **SHIFT+A** to open the Add menu 
@@ -213,7 +215,7 @@ Make sure you are in the *3D view* edit mode, by, at the bottom of the 3D viewpo
       
    2. Add a cube by pressing **SHIFT + A** on the keyboard, and selecting **Mesh > cube**
    
-   3. Increase the size of the cube by pressing **SHIFT + 10** or **SHIFT** + any number that is larger than the size of the model. In 
+   3. Increase the size of the cube by pressing **SHIFT + 11** or **SHIFT** + any number that is larger than the size of the model. In 
       the case of the still example, **SHIFT + 1** covers the entire model. 
    
 *Note: You can check if the size covers the model by looking around the 3D viewport. To do this you can:
@@ -236,7 +238,58 @@ Make sure you are in the *3D view* edit mode, by, at the bottom of the 3D viewpo
    10. Connect the *Volume* port of the *Volume Scatter* node to the *Volume* port of the *Material Output* node by cklicking the ports, 
        holding the mouse button down, moving the mouse to create a path to the next port, and letting go
        
-   11.
+   11. Press **SHIFT + A** and select *Shader > Mix Shader* and bring it over the path connecting the *Material output* node and the 
+       *volume scatter* node and click
+       
+   12. Press **SHIFT + A** and select *Shader > Volume Absorption*, and place it underneath the *Volume Scatter* node
+   
+   13. Connect the *Volume* port of the *Volume absorption* node to the open *Shader* port on the *Mix Shader* node
+   
+   14. The different values of the nodes *Volume Scatter* and *Mix Shader* Can be varied for different results, but in the case of the 
+       still image, the values were as following:
+	   Under *Volume Scatter*, the *colour* is:
+	   	R: 0.172
+		G: 0.248
+		B: 0.283
+	   Under *Volume Scatter*, the *Density* value is: 
+	   	0.025
+	   Under *Volume Scatter*, the *Anisotropy* value is:
+	   	0.700
+	   Under *Mix Shader* the *Shader FAC* value is:
+	   	0.500
+		
+   15. Return to the 3D viewport
+   
+   16. With the cursor at the centre, press **SHIFT + A** and select *Mesh > Plane*
+   
+   17. Press **S + 10** Or **S** + any other number that makes the size of the plane at least as large as the size of the model
+   
+   18. Press **G** and let go, then press **Z** and let go, then press **10** or any other number that places the plane within the cube 
+       but above the model and out of sight of the camera view.
+       
+   20. Go into *Edit mode* by pressng **TAB** on the keyboard
+   
+   21. Press **W** on the keyboard and select *Subdivide*
+   
+   22. Under *Subdiovide* change *Number of Cuts* to 35, or any other value depending on the size of the plane.
+   
+   23. Deselect eveything by pressing **A**
+   
+   24. At the bottom bar of the 3D viewport, go to *Select > Random*
+   
+   25. Change the *Percent* of random select to 70% 
+   
+   26. At the bottom bar of the 3D viewport, select *face select*
+   
+   27. Press **DELETE** and select *Faces*
+   
+   28. Press **CTRL + 2**
+   
+   29. Exit *edit mode* by pressing **TAB**
+
+### PART 2 - Adding Lamps
+
+   15. With the cursor at the centre, press **SHIFT + A**
    
    
    
