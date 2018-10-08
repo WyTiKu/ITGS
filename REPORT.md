@@ -17,7 +17,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    1. Press **SHIFT+A** to open the Add menu 
        *(Note: The mouse pointer must be in the 3D viewport)* 
      
-   2. Select **Mesh -> Grid**
+   2. Select **Mesh > Grid**
    
    3. Under the Tool shelf Tab, under Add Grid, change the values of “X subdivisions” and “Y subdivisions” to AAA 
    
@@ -84,9 +84,9 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    14. At the bottom of the 3D viewport, along the bar on the far left side, click on the 3D *viewport options* (icon shaped like a grey 
        cube) and select *node editor*
        
-   15. Press **SHIFT + A** on the keyboard, go to *shader* and click on *Glossy BSDF*
+   15. Press **SHIFT + A** on the keyboard, and select *Shader > Glossy BSDF*
    
-   16. Place the *glossy shader* underneath the *Diffuse BSDF* node by clicking
+   16. Place the *glossy shader* underneath the *Diffuse BSDF* node by movint the mouse pointer to the place and clicking
    
    17. Press **SHIFT + A** on the keyboard, go to *shader* and click on *mix shader*
    
@@ -206,15 +206,52 @@ To do this, the model must first be rendered
 ## SECTION 4 - Adding Lighting
 
 ### Part 1 - Set up for Volumetric Lighting
+Make sure you are in the *3D view* edit mode, by, at the bottom of the 3D viewport along the bar on the far left side, click on the 3D *viewport options*, and select *3D view*
 
-   2. Add a plane 
+   1. Make sure the cursor is at the centre. If it is not, press **SHIFT + S** while the mouse pointer is in the 3D viewport, and select 
+      *Cursor to centre*. The cursor decides where new objects will appear
+      
+   2. Add a cube by pressing **SHIFT + A** on the keyboard, and selecting **Mesh > cube**
+   
+   3. Increase the size of the cube by pressing **SHIFT + 10** or **SHIFT** + any number that is larger than the size of the model. In 
+      the case of the still example, **SHIFT + 1** covers the entire model. 
+   
+*Note: You can check if the size covers the model by looking around the 3D viewport. To do this you can:
+     1. Press and hold the middle mouse button and move the the mouse in order to rotate the view
+     2. Press and hold **SHIFT** and press and hold the middle mouse button and then move the mouse in order to move the view
+     3. Along the bottom bar of the 3D viewport, go to View -> and select the different perspectives, such as top, right, etc.
+     4. Scrolling the middle mouse button in order to zoom in and out of the 3D viewport*
+     
+   4. Under the *Tool Shelf* tab, go to *Object*, and under *Display* Change *Textured* to *Wire* to get a better view
+   
+   5. Go to the *Node Editor*, and along the bottom bar, select *Shader* as the node tree type. (Icon shaped as a sphere)
+   
+   6. Click on *New*
+   
+   7. Delete the *Diffuse BDSF* node by clicking on the node, and pressing **DELETE** on the keyboard
+   
+   9. Press **SHIFT + A** ad select *Shader > Volume Scatter*, and place it to the left of *Material Output* by moving the mouse pointer
+      to that space and clicking
+      
+   10. Connect the *Volume* port of the *Volume Scatter* node to the *Volume* port of the *Material Output* node by cklicking the ports, 
+       holding the mouse button down, moving the mouse to create a path to the next port, and letting go
+       
+   11.
+   
+   
+   
+   
+   2. Add a plane object by pressing **SHIFT + A** while the mouse cursor is in the 3D viewport, and select **Mesh > Plane**. A flat 
+      square should appear under the model
 
-   1. Make sure the cursor is at the centre. If it is not, press **SHIFT + S** and select *Cursor to centre*. The cursor decide where
-			   objects will appear
+*Note: You can check this by looking around the 3D viewport. To do this you can:
+     1. Press and hold the middle mouse button and move the the mouse in order to rotate the view
+     2. Press and hold **SHIFT** and press and hold the middle mouse button and then move the mouse in order to move the view
+     3. Along the bottom bar of the 3D viewport, go to View -> and select the different perspectives, such as *top*, *right*, etc.*
+   
+   3. Press **S + 9** on the keyboard, or **S** and then move the mouse until the size of the plane is at least as large as the model
+   
+   
+
+   1. haHA I BEAT THE sysTEM
 			
-
-
-   to finish rendering
-	  1. Example
-
-	
