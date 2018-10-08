@@ -197,6 +197,24 @@ To do this, the model must first be rendered
    6. As the values under *Map Value* are altered, the direct changes can be seen on the backdrop. Press the middle mouse button and
           move the mouse in order to change the view and see the backdrop better. Scroll the middle mouse button in order to change the 
 
+
+  
 ### What the final node combination should look like:   
 
 ![](Images/CompositeNodes.PNG)
+
+## SECTION 4 - Adding Lighting
+
+### Part 1 - Set up for Volumetric Lighting
+
+   2. Add a plane 
+
+   1. Make sure the cursor is at the centre. If it is not, press **SHIFT + S** and select *Cursor to centre*. The cursor decide where
+			   objects will appear
+			
+
+
+   to finish rendering
+	  1. Example
+
+	
