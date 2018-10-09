@@ -392,8 +392,18 @@ In total there will be 3 lamps. The first lamp will be specifically for the volu
 ## SECTION 5 - Rendering
 
    1. Under the *ToolShelf Tab* go to *Render*
-
    
+   2. Under *Dimensions* Change the resolution value to the desired resolution. In the case of the still example, the resolution is
+      1920 x 1080
+   
+   3. Under *Resolutions* Change the *resolution* percentage to 100%. This may make the computer slow, in which case lower the 
+      percentage if required.
+
+   4. Once the image has finished rendering, pres **F3** and select the name and place of the final render
+   
+*finished*
+
+## SECTION 6 - Final Details
    
    
    2. Add a plane object by pressing **SHIFT + A** while the mouse cursor is in the 3D viewport, and select **Mesh > Plane**. A flat 
