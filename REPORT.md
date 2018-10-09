@@ -7,7 +7,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
 
 ### PREPARE THE PROJECT BY:
 
- 1. Opening Blender 2.79
+ 1. Opening Blender 2.79 in *Cycles Render* mode, not the standard *Blender Render* (Can be changed along the top bar when Blender is open)
  
  2. Deleting the existing cube in the 3D viewport by right-clicking it, pressing Delete or X to open the Delete menu, and select Delete.
  
@@ -52,7 +52,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
    12. Change the *Midlevel* value to 0
    
-   13. Change the *Strength* value to X
+   13. Change the *Strength* value to 0.5
    
 **Section 1 is Finished.**
    
@@ -87,7 +87,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
    12. Click on *new*
    
-   13. Under *Surface* click *Use Nodes*
+   13. Under *Surface* click *Use Nodes*, if it does not have an option that says this, 
    
    14. At the bottom of the 3D viewport, along the bar on the far left side, click on the 3D *viewport options* (icon shaped like a grey 
        cube) and select *node editor*
