@@ -215,9 +215,18 @@ Make sure you are in the *3D view* edit mode, by, at the bottom of the 3D viewpo
       
    2. Add a cube by pressing **SHIFT + A** on the keyboard, and selecting **Mesh > cube**
    
-   3. Increase the size of the cube by pressing **SHIFT + 11** or **SHIFT** + any number that is larger than the size of the model. In 
-      the case of the still example, **SHIFT + 1** covers the entire model. 
-   
+   3. Change the size of the cube, by going to the *transform* settings under *object* under the *toolshelf tab*. The *Location* values 
+      should be altered to make the box wrap neatly around the model, and leave much room aboce the model and *Scale* values should be 
+      altered to be slightly larger than the model, and much larger along the Z axis. Through the camera view, the top and bottom of the 
+      box should not be visible. In the case of the still example, under *Location*, the values are the following:
+    	  X: 0.000
+	  Y: 0.000
+	  Z: 6.000
+      Under *Scale* the values aare the following:
+          X: 9.000
+	  Y. 6.000
+	  Z: 5.000
+      
 *Note: You can check if the size covers the model by looking around the 3D viewport. To do this you can:
      1. Press and hold the middle mouse button and move the the mouse in order to rotate the view
      2. Press and hold **SHIFT** and press and hold the middle mouse button and then move the mouse in order to move the view
@@ -262,35 +271,128 @@ Make sure you are in the *3D view* edit mode, by, at the bottom of the 3D viewpo
    
    16. With the cursor at the centre, press **SHIFT + A** and select *Mesh > Plane*
    
-   17. Press **S + 10** Or **S** + any other number that makes the size of the plane at least as large as the size of the model
-   
-   18. Press **G** and let go, then press **Z** and let go, then press **10** or any other number that places the plane within the cube 
-       but above the model and out of sight of the camera view.
+   17. Change the size of the plane by going to the *transform* settings under *object* under the *toolshelf tab*. The *Location* values 
+       should altered to place the plane above the model and out of sight of the camera view and *Scale* values should be altered to be 
+       slightly larger than the model, yet the same along the Z axis. Through the camera view, the top and bottom of the box should not 
+       be visible. In the case of the still example, under *Location*, the values are the following:
+   		X: 0.000 
+		Y: 0.000
+		Z: 10.500
+       Under *Scale* the values are the following:
+       		x: 9.000
+		Y: 6.000
+		Z: 0.000
        
-   20. Go into *Edit mode* by pressng **TAB** on the keyboard
+   18. Go into *Edit mode* by pressng **TAB** on the keyboard
    
-   21. Press **W** on the keyboard and select *Subdivide*
+   19. Press **W** on the keyboard and select *Subdivide*
    
-   22. Under *Subdiovide* change *Number of Cuts* to 35, or any other value depending on the size of the plane.
+   20. Under *Subdiovide* change *Number of Cuts* to 35, or any other value depending on the size of the plane.
    
-   23. Deselect eveything by pressing **A**
+   21. Deselect eveything by pressing **A**
    
-   24. At the bottom bar of the 3D viewport, go to *Select > Random*
+   22. At the bottom bar of the 3D viewport, go to *Select > Random*
    
-   25. Change the *Percent* of random select to 70% 
+   23. Change the *Percent* of random select to 30% 
    
-   26. At the bottom bar of the 3D viewport, select *face select*
+   24. At the bottom bar of the 3D viewport, select *face select*
    
-   27. Press **DELETE** and select *Faces*
+   25. Press **DELETE** and select *Faces*
    
-   28. Press **CTRL + 2**
+   26. Press **CTRL + 2**
    
-   29. Exit *edit mode* by pressing **TAB**
+   27. Exit *edit mode* by pressing **TAB**
 
 ### PART 2 - Adding Lamps
+In total there will be 3 lamps. The first lamp will be specifically for the volumetric lighting, and the last 3 will be for some extra lighting, as if there is only a lamp for volumetric lighting there will only be patches of light on the surface of the model. 
 
-   15. With the cursor at the centre, press **SHIFT + A**
+
+   1. With the cursor at the centre, press **SHIFT + A** and select **Lamp Sun**
    
+   2. Under the *transform* options under *object* in the *toolshelft tab* and change the Z value of *location* to a number so the lamb 
+      is above both the cube and the plane. In the case of the still example, the value is 14.
+      
+   3. Under the *Toolshelf tab*, go to *data*, where under *nodes* click on *Use Nodes*. If it does not have a button labelled *Use 
+      Nodes*, move onto step 4.
+   
+   4. Under *Nodes*, change the *Strenght Value* to 200, or another value depending on the desired result.
+   
+   5. Change the colour to be a light blue. In the case of the still example, the colour chosen was the following:
+   	R: 0.344
+	G: 0.609
+	B: 0.723
+	
+   6. Under *Lamp*, still under *Data* in the *Toolshelf tab*, change the *size* value to 0.050, and the *Max Bounces* Value to 200, or
+      other values depending on the desired result.
+   
+*Note: The next three lamps' positions and values are based on the actions for the still example, they may be altered for different models of different sizes and needs*
+   
+   7. Press **SHIFT + A** while the mouse pointer is in the 3D viewport, and select **Lamp > Sun**
+       
+   8. Under *Transform* under *Object* in the *Toolshelf Tab*, the values of *Location* are the following:
+      	X: 6.000
+	Y: -9.000
+	Z: 11.000
+      Under *Rotation* The values are the following:
+        X: 45
+	Y: 0
+	Z: 0
+	
+   9. Under *Nodes* under *Data* in the *Toolshelf Tab*, the value of the *strength* is 110.000
+   
+   10. Under *Nodes*, the value of the colour is:
+         R: 0.136
+	 G: 0.227
+	 B: 0.231
+        
+   11. Under *Lamp*, still under *Data* in the *Toolshelf Tab*, the value of the *Size* is 0.100
+   
+   12. With the mouse in the 3D viewport, press **SHIFT + A**, and select **Lamp > Sun**
+   
+   13. Under *Transform* under *Object* in the *Toolshelf Tab*, the values of *Location* are the following:
+         X: 1.000
+	 Y: 8.000
+	 Z: 11.000
+       Under *Rotation* The values are the following:
+         X: -45
+	 Y: 0
+	 Z: 0
+       
+   14. Under *Nodes* under *Data* in the *Toolshelf Tab*, the value of the *strength* is 130.000
+   
+   15: Under *Nodes*, the value of the colour is:
+         R: 0.136
+	 G: 0.227
+	 B: 0.231
+   
+   16. Under *Lamp*, still under *Data* in the *Toolshelf Tab*, the value of the *Size* is 0.100
+   
+   17. With the mouse in the 3D viewport, press **SHIFT + A**, and select **Lamp > Sun**
+   
+   18. Under *Transform* under *Object* in the *Toolshelf Tab*, the values of *Location* are the following:
+         X: 11.000
+	 Y: 0.000
+	 Z: 11.000
+       Under *Rotation* The values are the following:
+         X: 45
+	 Y: 0
+	 Z: 90   
+   
+   19. Under *Nodes* under *Data* in the *Toolshelf Tab*, the value of the *strength* is 130.000
+   
+   20. Under *Nodes*, the value of the colour is:
+         R: 0.136
+	 G: 0.227
+	 B: 0.231
+   
+   21. Under *Lamp*, still under *Data* in the *Toolshelf Tab*, the value of the *Size* is 0.100
+
+*finished*
+
+## SECTION 5 - Rendering
+
+   1. Under the *ToolShelf Tab* go to *Render*
+
    
    
    
