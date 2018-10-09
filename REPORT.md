@@ -18,15 +18,21 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
 ### MAKE THE BLENDER MODEL:
    1. Press **SHIFT+A** to open the Add menu 
        *(Note: The mouse pointer must be in the 3D viewport)* 
-     
+
    2. Select **Mesh > Grid**
-   
-   3. Under the Tool shelf Tab, under Add Grid, change the values of “X subdivisions” and “Y subdivisions” to AAA 
-   
-   *(The Toolshelf tab is typically open by default and can be found on the left side of the screen. If it is not open, press T on the 
+
+![](Images/CreateGrid.png)      
+
+   3. Under the Tool shelf Tab, under Add Grid, change the values of “X subdivisions” and “Y subdivisions” to AAA     
+
+   *(The Toolshelf tab is typically open by default and can be found on the left side of the screen. If it is not open, press **T** on the 
    keyboard to open or close it while the mouse hovers anywhere over the 3D viewport.)*
+   
+![](Images/Subdivisions.PNG)  
 
    4. Click on Textures under the Properties Viewport (Right side of the screen)
+   
+![](Images/OpenTexture.png)
    
    5. Click on the *New button* to add a new texture
 
