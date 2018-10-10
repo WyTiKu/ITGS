@@ -21,18 +21,12 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
 
    2. Select **Mesh > Grid**
 
-![](Images/CreateGrid.png)      
-
    3. Under the Tool shelf Tab, under Add Grid, change the values of “X subdivisions” and “Y subdivisions” to AAA     
 
    *(The Toolshelf tab is typically open by default and can be found on the left side of the screen. If it is not open, press **T** on the 
    keyboard to open or close it while the mouse hovers anywhere over the 3D viewport.)*
-   
-![](Images/Subdivisions.PNG)  
 
    4. Click on Textures under the Properties Viewport (Right side of the screen)
-   
-![](Images/OpenTexture.png)
    
    5. Click on the *New button* to add a new texture
 
@@ -204,12 +198,6 @@ To do this, the model must first be rendered
 
    6. As the values under *Map Value* are altered, the direct changes can be seen on the backdrop. Press the middle mouse button and
           move the mouse in order to change the view and see the backdrop better. Scroll the middle mouse button in order to change the 
-
-
-  
-### What the final node combination should look like:   
-
-![](Images/CompositeNodes.PNG)
 
 ## SECTION 4 - Adding Lighting
 
