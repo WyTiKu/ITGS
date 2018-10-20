@@ -23,7 +23,8 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
 
 ![](Images/CreateGrid.png)      
 
-   3. Under the Tool shelf Tab, under Add Grid, change the values of “X subdivisions” and “Y subdivisions” to AAA     
+   3. Under the Tool shelf Tab, under Add Grid, change the values of “X subdivisions” and “Y subdivisions” to values according to the resolution of the heigthmap image. For example the resolution of the still example’s original heightmap is 2056 x 1370. Divide both values by 2, and enter the final values into the two boxes. 2056 ÷ 2 = 1028 and 1370 ÷ 2 = 685, so enter “1028” into x subdivisions and “685” into Y subdivisions. If the image is large, these amount of subdivisions may be difficult for certain computers and may be lowered.
+     
 
    *(The Toolshelf tab is typically open by default and can be found on the left side of the screen. If it is not open, press **T** on the 
    keyboard to open or close it while the mouse hovers anywhere over the 3D viewport.)*
