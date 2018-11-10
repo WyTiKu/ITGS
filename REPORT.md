@@ -555,18 +555,31 @@ In total there will be 3 lamps. The first lamp will be specifically for the volu
 
 ## SECTION 6 - Final Details
    
+   1. Open Adobe Photoshop CC
    
-   2. Add a plane object by pressing **SHIFT + A** while the mouse cursor is in the 3D viewport, and select **Mesh > Plane**. A flat 
-      square should appear under the model
-
-*Note: You can check this by looking around the 3D viewport. To do this you can:
-     1. Press and hold the middle mouse button and move the the mouse in order to rotate the view
-     2. Press and hold **SHIFT** and press and hold the middle mouse button and then move the mouse in order to move the view
-     3. Along the bottom bar of the 3D viewport, go to View -> and select the different perspectives, such as *top*, *right*, etc.*
+   2. Under *File*, select *Open* , locate and select the rendered image file
    
-   3. Press **S + 9** on the keyboard, or **S** and then move the mouse until the size of the plane is at least as large as the model
+   3. Under *File*, select *Open*, locate the logo image file, and select it
    
+   4. Click the top bar titeled the name of the logo file, click and drag it into the centre of the window
    
-
-   1. haHA I BEAT THE sysTEM
+   5. Under the *Layers* tab, click and drag the layer labelled *Layer 1* onto the back picture
+   
+   6. Click and drag the logo tab back onto the bar
+   
+   7. Select by clicking on the rendered image tab on the top bar
+   
+   8. Press **CTRL + T**
+   
+   9. By clicking and draggin the anchors, change the size of the logo to a suitable size
+   
+   10. By clicking and dragging the logo, change the position of the logo to a suitable place.
+   
+   11. Under *layers*, with the *logo* layer selected, change *Opacity* to *25%* or any other desirable opacity
+   
+   12. Under *File*, select *Export > Export as PNG*
+   
+   13. Select a file location to save the final file, and select *save*
+   
+*finished*
 			
