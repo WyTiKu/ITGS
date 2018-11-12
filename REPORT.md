@@ -1,7 +1,10 @@
 MAKING A VISUAL REPRESENTATION OF BATHYMETRY DATA IN BLENDER
 ===
 
+*This report assumes the user uses the standard layout for both blender and Photoshop*
+
 Note: While making the model, occasionally save the project by pressing Ctrl + S or going to *file -> Save*
+
 
 ## SECTION 1 - Making a Blender Model From A Heightmap
 
@@ -71,7 +74,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
 **Section 1 is Finished.**
    
-## SECTION 3 - Adding the Textures and refining the model
+## SECTION 2 - Adding the Textures and refining the model
 
    1. Click on *Add Modifier* and select the *Subdivision Surface* modifier
    
@@ -100,7 +103,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
   
    8. Under *transform*, change the Scale of X. The value depends on the ratio of the heightmap image. In the case of the still 
       example’s heightmap, the ratio of the height to width of the image was 1:1.4999..., and so the scale of x had to be changed from 1 
-      to 1.49
+      to 1.49. It may simplify to 1.5
       
  ![](Images/Transform.PNG)      
       
@@ -160,7 +163,7 @@ Note: While making the model, occasionally save the project by pressing Ctrl + S
    
 *Finished*
 
-## SECTION 2 - Adding Colour, Mist and setting the camera
+## SECTION 3 - Adding Colour, Mist and setting the camera
 
 ### PART 1 - Setting the Camera
 
